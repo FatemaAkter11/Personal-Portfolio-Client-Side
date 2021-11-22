@@ -1,0 +1,30 @@
+.logo{
+    width: 13rem ;
+    margin-top: -40px;
+}
+:root{
+    --primary-white:#fff;
+    --primary-orange:#f9ab00;
+    --primary-dark:rgba(255,255,255,0);
+}
+.navbar-brand{
+    max-width: 17.25rem;
+    padding: 0 !important;
+    height: 6rem !important;
+}
+.nav-link{
+    font-weight: bold;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    letter-spacing: 0.6px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    color:var(--primary-white) !important;
+    border-bottom: 0.1875rem solid var(--primary-dark);
+}
+nav ul li{
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    border-bottom: 0.1875rem solid var(--primary-orange);
+}
