@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import logo from '../../../images/fatema.png';
-import resume from '../../../images/Resume_Fatema Akter.pdf';
-import './Navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import logo from '../../../images/fatema.png';
+import resume from '../../../files/Resume_Fatema Akter.pdf';
+import './Navbar.css';
 
 const Navbar = () => {
     return (

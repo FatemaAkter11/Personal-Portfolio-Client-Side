@@ -2,7 +2,6 @@ import React from 'react';
 import './Banner.css';
 import Typed from 'react-typed';
 import { Link } from 'react-router-dom';
-import resume from '../../../images/Resume_Fatema Akter.pdf';
 
 const Banner = () => {
     return (
