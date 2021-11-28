@@ -2,21 +2,13 @@ import React from 'react';
 import './Banner.css';
 import Typed from 'react-typed';
 import { Link } from 'react-router-dom';
-import bubble from '../../../images/bubble.png';
+import resume from '../../../images/Resume_Fatema Akter.pdf';
 
 const Banner = () => {
     return (
         <div className="banner">
-            <div className="banner-main">
-                <div className="bubbles">
-                    <img src={bubble} alt="" />
-                    <img src={bubble} alt="" />
-                    <img src={bubble} alt="" />
-                    <img src={bubble} alt="" />
-                    <img src={bubble} alt="" />
-                    <img src={bubble} alt="" />
-                </div>
-                <h1 className="fw-bolder title ">Hello, This is <span className="fw-bolder text">Fatema Akter</span> <br /> And I am a ...</h1>
+            <div className="animate__animated animate__backInDown banner-main">
+                <h1 className="fw-bolder title">Hello, This is <span className="fw-bolder text">Fatema Akter</span> <br /> And I am a ...</h1>
                 <Typed
                     className="typed-text fw-bolder"
                     strings={[' Web Designer', 'Frontend Developer', 'Junior Web Developer']}
@@ -25,10 +17,7 @@ const Banner = () => {
                     loop
                 />
                 <Link to='/contacts' className="btn fw-bold mt-2">Contact Me</Link>
-
             </div>
-
-
         </div>
     );
 };

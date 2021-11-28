@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import logo from '../../../images/fatema.png';
+import resume from '../../../images/Resume_Fatema Akter.pdf';
 import './Navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -33,12 +34,12 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <Link to='/contacts' className="nav-link">Contacts</Link>
+                            <Link to='/contacts' className="nav-link">Contact Me</Link>
                         </li>
+
                     </ul>
-
+                    <Link to={resume} target="_blank" className="btn1 fw-bold mt-2" download>My Resume</Link>
                 </div>
-
             </div>
         </nav>
     );
