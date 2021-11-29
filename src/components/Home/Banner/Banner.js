@@ -10,7 +10,7 @@ const Banner = () => {
                 <h1 className="fw-bolder title">Hello, This is <span className="fw-bolder text">Fatema Akter</span> <br /> And I am a ...</h1>
                 <Typed
                     className="typed-text fw-bolder"
-                    strings={[' Web Designer', 'Frontend Developer', 'Junior Web Developer']}
+                    strings={[' Web Designer', 'Frontend Developer', 'Junior Web Developer', 'MERN Stack Developer']}
                     typeSpeed={40}
                     backSpeed={50}
                     loop
