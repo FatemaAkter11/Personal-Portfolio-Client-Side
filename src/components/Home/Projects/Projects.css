@@ -1,0 +1,16 @@
+.card:hover{
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,0.75);
+}
+.link{
+    margin-right: 10px;
+}
+.btn2{
+    text-decoration: none;
+    border: 1px solid red;
+    text-transform: uppercase;
+    border-radius: 8px;
+    padding: 6px 8px;
+    color: white;
+    margin-bottom: 10px;
+    background-color: rgb(255, 71, 126);
+}

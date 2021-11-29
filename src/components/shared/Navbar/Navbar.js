@@ -38,7 +38,7 @@ const Navbar = () => {
                         </li>
 
                     </ul>
-                    <Link to={resume} target="_blank" className="btn1 fw-bold mt-2" download>My Resume</Link>
+                    <Link to={resume} target="_blank" className="btn1 fw-bold mt-2" download>My Resume <i className="fas fa-download text-white"></i></Link>
                 </div>
             </div>
         </nav>
