@@ -1,12 +1,24 @@
 import React from 'react';
+import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_cjrawti', 'template_1ripxr5', e.target, 'user_gihVwpkXzRAGzCx5PBL6N')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
 
     return (
         <div>
             <div className="container">
                 <h2 className="text-center my-3 fw-bold">Contact Form</h2>
-                <form>
+                <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">
                             <input type="text" className="form-control" placeholder="Name" name="name" />

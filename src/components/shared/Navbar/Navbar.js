@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import logo from '../../../images/fatema.png';
-import resume from '../../../files/Resume_Fatema Akter.pdf';
+import resume from '../../../files/Fatema Akter.pdf';
 import './Navbar.css';
 
 const Navbar = () => {
