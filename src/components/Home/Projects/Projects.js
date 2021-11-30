@@ -19,7 +19,7 @@ const Projects = () => {
                         <div className="card-body">
                             <h5 className="card-title fw-bold"> Chobirhaat</h5>
                             <p className="card-text">Chobirhaat is a website which is providing different photos items. </p>
-                            <Link to="/projects/1"><button className="btn1 btn-primary text-white fw-bold">Project Details</button></Link>
+                            <Link to="/portfolio"><button className="btn1 btn-primary text-white fw-bold">Project Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -30,7 +30,7 @@ const Projects = () => {
                             <h5 className="card-title fw-bold">Dream Street Pottery</h5>
                             <p className="card-text">A dream street pottery website which is providing different pottery items.
                             </p>
-                            <Link to=""><button className="btn1 btn-primary fw-bold">Project Details</button></Link>
+                            <Link to="/portfolio"><button className="btn1 btn-primary fw-bold">Project Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ const Projects = () => {
                         <div className="card-body">
                             <h5 className="card-title fw-bold">Hungry Naki?</h5>
                             <p className="card-text">A hungry naki website which is providing different country food items.</p>
-                            <Link to=""><button className="btn1 btn-primary text-white fw-bold">Project Details</button></Link>
+                            <Link to="/portfolio"><button className="btn1 btn-primary text-white fw-bold">Project Details</button></Link>
                         </div>
                     </div>
                 </div>
