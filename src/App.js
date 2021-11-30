@@ -7,6 +7,7 @@ import Blogs from './components/Home/Blogs/Blogs';
 import Navbar from './components/shared/Navbar/Navbar';
 import Footer from './components/shared/Footer/Footer';
 import Skills from './components/Home/Skills/Skills';
+import Portfolio from './components/Home/Portfolio/Portfolio';
 
 function App() {
   return (
@@ -22,6 +23,8 @@ function App() {
         <Route path="/skills" element={<Skills />}>
         </Route>
         <Route path="/blogs" element={<Blogs />}>
+        </Route>
+        <Route path="/portfolio" element={<Portfolio />}>
         </Route>
         <Route path="/contacts" element={<ContactForm />}>
         </Route>

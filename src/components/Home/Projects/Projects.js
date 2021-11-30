@@ -10,7 +10,7 @@ const Projects = () => {
         <div className="container">
             <div className="service-h4 position-relative d-flex align-items-center justify-content-center">
                 <h1 className="display-1 text-uppercase text-white" >Project</h1>
-                <h1 className="position-absolute text-uppercase text-primary">Personal Project</h1>
+                <h1 className="position-absolute text-uppercase text-primary">Project Area</h1>
             </div>
             <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
                 <div className="col">
@@ -19,7 +19,7 @@ const Projects = () => {
                         <div className="card-body">
                             <h5 className="card-title fw-bold"> Chobirhaat</h5>
                             <p className="card-text">Chobirhaat is a website which is providing different photos items. </p>
-                            <Link to=""><button className="btn1 btn-primary text-white fw-bold">Project Details</button></Link>
+                            <Link to="/projects/1"><button className="btn1 btn-primary text-white fw-bold">Project Details</button></Link>
                         </div>
                     </div>
                 </div>

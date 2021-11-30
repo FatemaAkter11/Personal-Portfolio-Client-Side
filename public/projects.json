@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/2cBqtFT/chobirhaat.png",
+        "title": "Chobirhaat",
+        "description": "Chobirhaat is a website which is providing different photos items. "
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/2FZbc8Q/pottery.png",
+        "title": "Dream Street Pottery",
+        "description": "A dream street pottery website which is providing different pottery items."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/QKxbcpT/hungrynaki.png",
+        "title": "Hungry Naki?",
+        "description": "A hungry naki website which is providing different country food items."
+    }
+]
