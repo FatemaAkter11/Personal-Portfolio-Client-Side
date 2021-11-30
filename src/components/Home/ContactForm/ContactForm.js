@@ -17,7 +17,10 @@ const ContactForm = () => {
     return (
         <div>
             <div className="container">
-                <h2 className="text-center my-3 fw-bold">Contact Me</h2>
+                <div className="position-relative d-flex align-items-center justify-content-center">
+                    <h1 className="display-1 text-uppercase text-white textP">Contact</h1>
+                    <h1 className="position-absolute text-uppercase text-primary">Contact Me</h1>
+                </div>
                 <form onSubmit={sendEmail}>
                     <div className="row pt-5 mx-auto">
                         <div className="col-8 form-group mx-auto">
@@ -33,7 +36,7 @@ const ContactForm = () => {
                             <textarea cols="30" rows="8" className="form-control" placeholder="Your Message" name="message" ></textarea>
                         </div>
                         <div className="col-8 pt-3 mx-auto my-3">
-                            <input type="submit" className="btn btn-info" value="Send Message" />
+                            <input type="submit" className="btn btn-info" value="Send Email" />
                         </div>
                     </div>
                 </form>
