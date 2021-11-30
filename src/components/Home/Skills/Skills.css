@@ -1,0 +1,12 @@
+.text1{
+    -webkit-text-stroke: 1px #dee2e6;
+}
+.progress {
+    border-radius: 10px;
+  }
+  
+  .progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+  }

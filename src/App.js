@@ -6,6 +6,7 @@ import ContactForm from './components/Home/ContactForm/ContactForm';
 import Blogs from './components/Home/Blogs/Blogs';
 import Navbar from './components/shared/Navbar/Navbar';
 import Footer from './components/shared/Footer/Footer';
+import Skills from './components/Home/Skills/Skills';
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
         </Route>
         <Route exact path="/" element={<Home />}>
         </Route>
-        <Route path="/aboutme" element={<About />}>
+        <Route path="/about" element={<About />}>
+        </Route>
+        <Route path="/skills" element={<Skills />}>
         </Route>
         <Route path="/blogs" element={<Blogs />}>
         </Route>

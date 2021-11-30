@@ -20,10 +20,10 @@ const Navbar = () => {
                             <Link to='/home' className="nav-link active" aria-current="page" >Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/aboutme' className="nav-link">About Me</Link>
+                            <Link to='/about' className="nav-link">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <Link to='/services' className="nav-link">Services</Link>
+                            <Link to='/skills' className="nav-link">My Skills</Link>
                         </li>
 
                         <li className="nav-item">
