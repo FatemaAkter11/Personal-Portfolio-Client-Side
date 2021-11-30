@@ -27,14 +27,14 @@ const Navbar = () => {
                         </li>
 
                         <li className="nav-item">
-                            <Link to='/work' className="nav-link">How work</Link>
+                            <Link to='/blogs' className="nav-link">Blogs</Link>
                         </li>
                         <li className="nav-item">
                             <Link to='/portfolio' className="nav-link">Portfolio</Link>
                         </li>
 
                         <li className="nav-item">
-                            <Link to='/contacts' className="nav-link">Contact Me</Link>
+                            <Link to='/contacts' href="#" className="nav-link">Contact Me</Link>
                         </li>
 
                     </ul>

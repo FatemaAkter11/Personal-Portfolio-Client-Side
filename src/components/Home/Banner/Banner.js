@@ -15,7 +15,7 @@ const Banner = () => {
                     backSpeed={50}
                     loop
                 />
-                <Link to='/contacts' className="btn fw-bold mt-2">Contact Me</Link>
+                <Link to='/contacts' href="#" className="btn fw-bold mt-2">Contact Me</Link>
             </div>
         </div>
     );
