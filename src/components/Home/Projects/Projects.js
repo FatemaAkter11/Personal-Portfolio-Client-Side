@@ -8,7 +8,10 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div className="container">
-            <h2 className="text-center my-5 fw-bold">Projects Area</h2>
+            <div className="service-h4 position-relative d-flex align-items-center justify-content-center">
+                <h1 className="display-1 text-uppercase text-white" >Project</h1>
+                <h1 className="position-absolute text-uppercase text-primary">Personal Project</h1>
+            </div>
             <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
                 <div className="col">
                     <div className="card h-100">
