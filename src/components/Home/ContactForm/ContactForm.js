@@ -6,12 +6,16 @@ const ContactForm = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_cjrawti', 'template_1ripxr5', e.target, 'user_gihVwpkXzRAGzCx5PBL6N')
+        const success = emailjs.sendForm('service_cjrawti', 'template_1ripxr5', e.target, 'user_gihVwpkXzRAGzCx5PBL6N')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
             });
+        if (success) {
+            alert("Email Send Successfully.")
+        }
+        e.target.reset();
     };
 
     return (

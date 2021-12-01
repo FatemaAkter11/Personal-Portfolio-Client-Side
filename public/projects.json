@@ -1,20 +1,103 @@
 [
     {
-        "id": 1,
-        "img": "https://i.ibb.co/2cBqtFT/chobirhaat.png",
-        "title": "Chobirhaat",
-        "description": "Chobirhaat is a website which is providing different photos items. "
+        "key": "1",
+        "mainImg": "https://i.ibb.co/2cBqtFT/chobirhaat.png",
+        "imgOne": "https://i.ibb.co/YXmRy5X/img1.png",
+        "imgTwo": "https://i.ibb.co/3v4dvpC/img2.png",
+        "name": "Chobirhaat",
+        "description": "Chobirhaat is a website which is providing different photos items.",
+        "bulletPoint": [
+            "A Marketplace of authentic photos and photographers.",
+            "Have a login and registration system with email & password.",
+            "Have a different dashboard for the Admin panel and users.",
+            "Have an upload system so that users can upload photos.",
+            "There is also another dashboard for Admin so that he/she can manage all photos."
+        ],
+        "livePreview": "https://chobirhaat.firebaseapp.com/",
+        "code": "https://github.com/FatemaAkter11/chobirhaat-client-side",
+        "codeServer": "https://github.com/FatemaAkter11/chobirhaat-server-side",
+        "technology": [
+            "React Js",
+            "React Router",
+            "React Tailwind",
+            "Firebase",
+            "Node Js",
+            "MongoDB"
+        ]
     },
     {
-        "id": 2,
-        "img": "https://i.ibb.co/2FZbc8Q/pottery.png",
-        "title": "Dream Street Pottery",
-        "description": "A dream street pottery website which is providing different pottery items."
+        "key": "2",
+        "mainImg": "https://i.ibb.co/2FZbc8Q/pottery.png",
+        "imgOne": "https://i.ibb.co/fqmT1CS/img4.png",
+        "imgTwo": "https://i.ibb.co/0YnwyY4/img5.png",
+        "name": "Dream Street Pottery",
+        "description": "A dream street pottery website which is providing different pottery items.",
+        "bulletPoint": [
+            "Have a login and registration system with email & password and also google.",
+            "Have a different dashboard for the Admin panel and users.",
+            "Users can order different pottery items and also can see the order details and delete their orders.",
+            "There is also another dashboard for Admin so that he/she can manage all orders and products.",
+            "Also, Admin can make a new Admin if needed."
+        ],
+        "livePreview": "https://dream-street-pottery.web.app/",
+        "code": "https://github.com/FatemaAkter11/Dream-Street-Pottery-Client-Side",
+        "codeServer": "https://github.com/FatemaAkter11/Dream-Street-Pottery-Server-Side",
+        "technology": [
+            "React Js",
+            "React Router",
+            "React Bootstrap",
+            "Material UI",
+            "Firebase",
+            "Node Js",
+            "MongoDB"
+        ]
     },
     {
-        "id": 3,
-        "img": "https://i.ibb.co/QKxbcpT/hungrynaki.png",
-        "title": "Hungry Naki?",
-        "description": "A hungry naki website which is providing different country food items."
+        "key": "3",
+        "mainImg": "https://i.ibb.co/QKxbcpT/hungrynaki.png",
+        "imgOne": "https://i.ibb.co/BfbWtyr/img6.png",
+        "imgTwo": "https://i.ibb.co/52HB4b1/img7.png",
+        "name": "Hungry Naki?",
+        "description": "A hungry naki website which is providing different country food items.",
+        "bulletPoint": [
+            "Have a login and registration system with google.",
+            "Order your favorite food online from our website and enjoy at home!",
+            "Redirect system is applied in this site.",
+            "There is a option named My Order where user can find all orders.",
+            "Initially you can order a food and you can cancel it."
+        ],
+        "livePreview": "https://hungrynaki-f2c05.web.app/",
+        "code": "https://github.com/FatemaAkter11/delivery-website-client-side",
+        "codeServer": "https://github.com/FatemaAkter11/delivery-website-server-side",
+        "technology": [
+            "React Js",
+            "React Router",
+            "React Bootstrap",
+            "Firebase",
+            "Node Js",
+            "MongoDB"
+        ]
+    },
+    {
+        "key": "4",
+        "mainImg": "https://i.ibb.co/f2jgb1t/honda.png",
+        "imgOne": "https://i.ibb.co/L83HnMz/img8.png",
+        "imgTwo": "https://i.ibb.co/gjS0zmL/img9.png",
+        "name": "Honda cbr",
+        "description": "A Honda cbr website which is providing different country honda products.",
+        "bulletPoint": [
+            "This is a Responsive website",
+            " Frequently Ask questions section",
+            "Featured bike section.",
+            "Latest news section.",
+            "Client review section."
+        ],
+        "livePreview": "https://honda-assignment3.netlify.app/",
+        "code": "https://github.com/FatemaAkter11/Honda-cbr",
+        "technology": [
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ]
     }
 ]

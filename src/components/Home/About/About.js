@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 import my from "../../../images/Fatema Akter.png";
 import { Link } from 'react-router-dom';
+import { FaLinkedin, FaGithubSquare, FaFacebookSquare } from 'react-icons/fa';
 
 const About = () => {
     return (
@@ -29,6 +30,27 @@ const About = () => {
                             <div className="col-sm-6 py-2"><h6>Email: <span className="text-secondary">fatemaakter4261@gmail.com</span></h6></div>
                             <div className="col-sm-6 py-2"><h6>Address: <span className="text-secondary">09 Holding,Amgacia,Nayarhat,Ashulia, Savar, Dhaka, Bangladesh</span></h6></div>
                             <div className="col-sm-6 py-2"><h6>Freelance: <span className="text-secondary">Available</span></h6></div>
+                        </div>
+                        <div className="col-md-6">
+                            <div>
+                                <a href=": https://www.linkedin.com/in/akter-fatema/"
+                                    target="_blank"
+                                    className="me-2 text-dark"
+                                    style={{ fontSize: "28px" }}
+                                    rel="noreferrer"><FaLinkedin /></a>
+
+                                <a href="https://github.com/FatemaAkter11/"
+                                    target="_blank"
+                                    className="me-2 text-dark"
+                                    style={{ fontSize: "28px" }}
+                                    rel="noreferrer"><FaGithubSquare /></a>
+
+                                <a href="https://www.facebook.com/profile.php?id=100011292787372"
+                                    target="_blank"
+                                    className="me-2 text-dark"
+                                    style={{ fontSize: "28px" }}
+                                    rel="noreferrer"><FaFacebookSquare /></a>
+                            </div>
                         </div>
                         <Link to="" href="" className="btn blue btn-outline-primary mr-4">Hire Me</Link>
                         <Link to="" href="" className="btn btn-outline-primary" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Learn More</Link>
