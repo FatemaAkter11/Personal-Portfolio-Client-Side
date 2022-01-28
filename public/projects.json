@@ -99,5 +99,26 @@
             "CSS",
             "Bootstrap"
         ]
+    },
+    {
+        "key": "5",
+        "mainImg": "https://i.ibb.co/7NzQtSb/banner.png",
+        "imgOne": "https://i.ibb.co/McwsvHT/recomend.png",
+        "imgTwo": "https://i.ibb.co/Rh68WBd/Products.png",
+        "name": "khoomi-ecommerce-website",
+        "description": "A khoomi-ecommerce-website which is providing different country different products.",
+        "bulletPoint": [
+            "This is a Responsive website",
+            "Top products section.",
+            "Latest new collection.",
+            "Trending section."
+        ],
+        "livePreview": "https://honda-assignment3.netlify.app/",
+        "code": "https://github.com/FatemaAkter11/Honda-cbr",
+        "technology": [
+            "HTML",
+            "CSS",
+            "Bootstrap"
+        ]
     }
 ]
